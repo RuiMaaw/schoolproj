@@ -1,0 +1,74 @@
+@import "product.css";
+
+*,
+html {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Rubik";
+  background-color: #00823e;
+}
+header {
+  margin: 12px;
+  margin-left: 26px;
+  margin-right: 26px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-brand {
+  width: 60px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2pc;
+}
+li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+}
+.nav-menu {
+  display: flex;
+  align-items: center;
+}
+.cta-nav {
+  background-color: #ffffff;
+  color: #00823e;
+  border-radius: 10px;
+  text-decoration: none;
+  padding: 10px;
+  margin-right: 2pc;
+}
+#hero {
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem;
+  margin-top: 5pc;
+  margin-bottom: 10pc;
+}
+.content-hero h1 {
+  color: #ffffff;
+  border-bottom-style: solid;
+  border-color: #00db6f;
+  font-size: 32px;
+  padding-bottom: 2px;
+  margin-bottom: 4px;
+}
+.content-hero p {
+  color: #c7c7c7;
+  margin-bottom: 3pc;
+}
+.cta-btn {
+  text-decoration: none;
+  background-color: #00db6f;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 12px;
+}
